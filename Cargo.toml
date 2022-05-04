@@ -41,4 +41,4 @@ anyhow = "1"
 
 [dev-dependencies]
 anyhow = "1"
-esp-idf-sys = { version = "0.31.4", features = ["native", "binstart"] }
+esp-idf-sys = { git = "https://github.com/ChenHuaYou/esp-idf-sys.git", features = ["native", "binstart"] }
